@@ -1,0 +1,153 @@
+h1,
+h2 {
+    font-family: Garamond;
+    color: #7d6b57;
+    padding: 0 15px;
+}
+
+h1 {
+    padding: 0 25px;
+    text-align: center;
+}
+
+#mainimg {
+    height: auto;
+    width: 25%;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 25px 15px;
+}
+
+* {
+    background-color: #d9d0b4;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#legend {
+    font-family: Garamond;
+    color: black;
+    font-size: 30px;
+    margin: 25px;
+    text-decoration: underline black;
+}
+
+label {
+    font-family: Garamond;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+button {
+    font-family: Garamond;
+    font-size: 20px;
+    background-color: #879e82;
+}
+
+input[type=checkbox] {
+    float: left;
+    margin: 15px;
+
+}
+
+input#name {
+    width: 200px;
+    background-color: white;
+}
+
+input#email {
+    width: 200px;
+    background-color: white;
+}
+
+textarea {
+    width: 200px;
+    background-color: white;
+}
+
+#mainmenu {
+    padding: 0 40%;
+    display: flex;
+    align-items: center;
+    background-color: #879e82;
+
+}
+
+#mainmenu li {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #879e82;
+}
+
+#mainmenu a {
+    background-color: #879e82;
+    width: 15%;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+ul#mainmenu {
+    overflow: hidden;
+    background-color: #879e82;
+    height: 47px;
+    width: 100%
+}
+
+#mainmenu a:hover {
+    color: #d9d0b4;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #7d6b57;
+}
+
+#links {
+    text-align: center;
+}
+
+#links h1 {
+    padding: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+    padding: 15px;
+}
